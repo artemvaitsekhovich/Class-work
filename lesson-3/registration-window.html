@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Registration site</title>
+</head>
+
+<body>
+    <img src="./Images/Registration window-1.PNG" alt="Registration window" width="700">
+    <p>
+        <b>Сделать заказ:</b>
+    </p>
+    <form>
+        <select name="Person type">
+            <option value="1">Физическое лицо</option>
+            <option value="2">Юридическое лицо</option>
+        </select>
+        <p>
+            <input type="text" name="Personal Info" required placeholder="Фамилия, Имя, Отчество">
+        </p>
+        <p>
+            <input type="tel" name="Phone number" required placeholder="Контактный телефон">
+        </p>
+        <p>
+            <input type="email" name="E-mail" required placeholder="E-mail">
+        </p>
+        <select name="Payment method">
+            <option value="1">Наличные</option>
+            <option value="2">Картой на сайте</option>
+            <option value="3">Картой курьеру</option>
+        </select>
+        <p>
+            <select name="Delivery method">
+
+                <option value="1">Самовывоз</option>
+                <option value="2">Доставка</option>
+            </select>
+        </p>
+        <p>
+            <input type="file" name="File">
+        </p>
+        <p>
+            <textarea name="Adress" required placeholder="Ваш адрес" maxlength="100" minlength="20"></textarea>
+        </p>
+        <p>
+            <textarea name="Comments" placeholder="Комментарий к заказу"></textarea>
+        </p>
+        <button type="submit" formtarget="self">ОФОРМИТЬ ЗАКАЗ</button>
+        <button type="reset">ОТМЕНИТЬ ВЫБОР</button>
+    </form>
+</body>
+
+</html>
