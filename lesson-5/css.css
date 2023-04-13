@@ -1,0 +1,35 @@
+.first-block {
+  background-color: #ebffe4;
+  width: 1600px;
+  height: 850px;
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url("./font/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: url("./font/static/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url("./font/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url("./font/static/Raleway-Bold.ttf");
+}
+.links {
+  color: #000;
+  font-family: "Raleway";
+  font-weight: 400;
+  margin-top: 60px;
+  margin-right: 900px;
+}
+.body{
+    font-family: Raleway;
+}
